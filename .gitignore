@@ -1,3 +1,20 @@
 .venv
 .idea
 .env
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+cache/
+
+# Generated Django migrations (keep package markers)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Local product dataset
+/baltics_products.jsonld
